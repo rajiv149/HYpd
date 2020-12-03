@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+}
+body{
+   background: #f6f6f6;
+}
+
+.box{
+   width: 450px;
+   margin: 30px auto;
+   margin-left: 50px;
+   background: #fff;
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+
+.box .heading{
+   background: #7800CF;
+   border-radius: 7px 7px 0px 0px;
+   padding: 10px;
+   color: #fff;
+   text-align: center;
+   font-family: "Rubik";
+}
+
+.faqs{
+   padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+details{
+   background: #f6f6f6;
+   padding: 10px 20px;
+   border-radius: 7px;
+   margin-top: 20px;
+   font-family: "Rubik";
+   font-size: 14px;
+   font-weight: bold;
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+
+details summary{
+   outline: none;
+}
+.content-table{
+  border-collapse: collapse;
+  margin: 10px 50px;
+  font-size: 0.9em;
+  min-width: 350px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+</style>
+</head>
+<body>
+<div class="box">
+   <p class="heading">FAQs</p>
+   <div class="faqs">
+      <details>
+         <summary>What is HypD</summary>
+         <p class="text">It is a hyperdelivery service which lets a user get all his/her requirements to his doorstep.</p>
+      </details>
+      <details>
+         <summary>Within what time i will receive the order?</summary>
+         <p class="text">It generally takes less than an hour for us to deliver.</p>
+      </details>
+      <details>
+         <summary>Payment failure resolution time?</summary>
+         <p class="text">If the payment failed,any amount debited will be refunded within 24 hours.</p>
+      </details>
+       <details>
+         <summary>Is the delivery closed any day of the week?</summary>
+         <p class="text">The delivery is done all days of the week from 8am to 10pm.</p>
+      </details>
+   </div>
+<br>
+<br>
+<br>
+<table class="content-table">
+<thead>
+<tr>
+<th>S.no</th>
+<th>Time</th>
+<th>Products Delivered</th>
+</tr>
+</thead>
+<tbody>
+<tr class="active-row">
+<td>1</td>
+<td>Today</td>
+<td>150</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Yesterday</td>
+<td>300</td>
+</tr>
+<tr>
+<td>3</td>
+<td>7th october</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+font-family:"montserrat",sans-serif;
+}
+.Cont{
+background-image:url(C:/Users/ASUS/Desktop/back1.jpg);
+background-size: cover;
+padding: 40px 0;
+}
+.Cont h1{
+color: black;
+}
+.border{
+width: 100px;
+height: 10px;
+margin: 40px auto;
+}
+.contact-form{
+ max-width: 600px;
+margin: auto;
+padding: 0 10px;
+overflow: hidden;
+}
+.contact-form-text{
+display: block;
+width: 100%;
+box-sizing: border-box;
+margin: 16px 0;
+border: 0;
+background: #111;
+padding: 20px 40px;
+outline: none;
+color: #ddd;
+transition: 0.5s;
+}
+.contact-form-text:focus{
+box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+resize: none;
+height; 120px;
+}
+.contact-form-btn{
+float: right;
+border: 0;
+background: #34495e;
+color: #fff;
+padding: 12px 50px;
+border-radius: 20px;
+cursor: pointer;
+transition: 0.5s;
+}
+.contact-form-btn:hover{
+background: #2980b9;
+}
+.check{
+font-color: white;
+}
+</style>
+</head>
+<body>
+<div class="Cont">
+<marquee><h1>Contact Us</h1></marquee>
+<div class="border"></div>
+<form class="contact-form" action="index.html" method="post">
+<input type="text" class="contact-form-text" placeholder="Your Name">
+<input type="email" class="contact-form-text" placeholder="Your email">
+<input type="text" class="contact-form-text" placeholder="Your phone">
+<textarea class="contact-form-text" placeholder="Your message"></textarea>
+<input type="submit" class="contact-form-btn" value="send">
+Reply in Mail<input type="checkbox">
+Reply in Mobile<input type="checkbox">
+</form>
+</div>
+<footer>Address</footer>
+<footer>HypD Office,Bangalore,India</footer>
+<footer> Email: hypd@xyz.com</footer>
+</body>
+</html>
+
